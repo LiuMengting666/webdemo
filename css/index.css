@@ -1,0 +1,417 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.header{
+	height: 173px;
+	background-color: #f1f1f2;
+}
+.logo{
+	text-align: center;
+	height: 125px;
+
+}
+.logo img{
+	margin-top:30px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	background:url(../img/huiline.png) no-repeat right center;
+	padding: 0 30px;
+	line-height: 45px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: black;
+}
+.nav a{
+	
+	display: block;
+	height: 42px;
+}
+.first a{
+	border-bottom: 3px solid #1e50ae;
+}
+.nav li:last-child{
+	background:none;
+
+}
+.banner{
+	height: 405px;
+	background:url(../img/02.gif) no-repeat center center;
+}
+.sever{
+	width: 1200px;
+	height: 810px;
+	margin: 0 auto;
+	
+}
+.h3{
+
+	text-align: center;
+	padding-top:60px;
+}
+.sever p{
+	text-align: center;
+	padding-top:25px;
+}
+.zhong li{
+	float: left;
+}
+.shang{
+	margin-top:60px;
+	width: 1200px;
+	height: 370px;
+	
+}
+.shangxiao{
+	width: 300px;
+	height: 370px;
+	background-color: #fff;
+	float: left;
+}
+.img{
+	text-align: center;
+
+}
+.sec{
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	margin-top:20px;
+
+}
+.list ul{
+	margin-left: 110px;
+	margin-top:17px;
+	float: left;
+}
+.list li{
+	background:url(../img/yuan1.png) no-repeat left center;
+	width: 160px;
+	padding-left: 15px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #c8c8c8;
+}
+.xiaxiao{
+	width: 300px;
+	float: left;
+}
+.jiejue{
+
+	height: 712px;
+	background:url(../img/lan.png) no-repeat center center;
+}
+.jiejuezhong{
+	width: 1200px;
+	height: 710px;
+	
+	margin-left: 25px;
+	position: relative;
+}
+.h2{
+	height: : 100px;
+	padding-top:65px;
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 34px;
+	color: #fff;
+	
+}
+.ha{
+	height: 40px;
+	padding-top: 24px;
+	font-family: [Aparajita];
+	font-size: 31.45px;
+	color: #fff;
+	text-align: center;
+}
+.img1{
+	position: absolute;
+	top: 345px;
+	left: 0px;
+
+}
+.img2{
+	position: absolute;
+	top: 345px;
+	right: 0px;
+}
+.zhongtu {
+	position: absolute;
+	top: 215px;
+	left: 60px;
+	
+	height: 300px;
+
+}
+.zhongtu li{
+	margin-right: 50px;
+	width: 232px;
+	float: left;
+}
+.img3{
+	position: absolute;
+	bottom: 50px;
+	left: 485px;
+}
+/*最新资讯开始*/
+.zixun{
+	height: 910px;
+	
+	position: relative;
+}
+.zuixinzixun{
+	height: 35px;
+	padding-top: 60px;
+	font-family: 微软雅黑;
+	font-size: 34px;
+	text-align: center;
+}
+.yingwen{
+	height: 40px;
+	padding-top: 24px;
+	font-family: [Aparajita];
+	font-size: 31.25px;
+	text-align: center;
+}
+.zixuntu{
+	position: absolute;
+	top: 190px;
+	left: 43px;
+}
+.zi{
+	width: 505px;
+	height: 375px;
+	position: absolute;
+	top: 190px;
+	right: 43px;
+	
+}
+.jiaoyimingxi{
+	font-family: 微软雅黑;
+	font-size: 22px;
+	padding-top: 30px;
+	height: 50px;
+	
+
+}
+.yingwende{
+	font-family: 微软雅黑;
+	font-size: 18px;
+
+
+}
+.huizi{
+	height: 113px;
+	padding-top: 35px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #a6a6a6;
+	line-height: 30px;
+}
+.xiangqing{
+	position: absolute;
+	top: 230px;
+	left: 0px;
+}
+.xiaozi1 {
+	width: 510px;
+	height: 255px;
+	position: absolute;
+	top:560px;
+	left: 75px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #a6a6a6;
+	line-height: 48px;
+
+}
+.xiaozi2 {
+	width: 510px;
+	height: 255px;
+	position: absolute;
+	top:560px;
+	right: 75px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #a6a6a6;
+	line-height: 48px;
+
+}
+.xian{
+	background: url(../img/xian4_03.gif) no-repeat top center;
+
+}
+
+.bottom{
+	width: 100%;
+	height: 102px;
+	background-color: #f5f5f5;
+	
+}
+.kuang{
+	width: 1200px;
+	height: 102px;
+	margin: 0 auto;
+}
+.kuang li{
+	width: 300px;
+	height: 102px;
+	float: left;
+	position: relative;
+}
+.ditu{
+	position: absolute;
+	top: 30px;
+	left: 45px;
+}
+.dizi1{
+	position: absolute;
+	top: 35px;
+	left: 120px;
+	font-size: 19px;
+	font-family: 微软雅黑;
+	color: #333333;
+}
+.dizi2{
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	color:  #333333;
+}
+.bottom2{
+	background-color: #323232;
+	height:260px;
+	width: 100%;
+	position: relative;
+}
+.shang1{
+	width: 155px;
+	height: 220px;
+	float: left;
+	margin-left: 25px;
+}
+.shang1 p{
+	font-family: 微软雅黑;
+	font-size: 19px;
+	color: #fff;
+	margin-top: 75px;
+	
+}
+.shang1 ul{
+	margin-top: 30px;
+	line-height: 20px;
+	height: 95px;
+}
+.shang1 li{
+	height: 35px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+}
+.ma{
+	position: absolute;
+	top: 70px;
+	right: 370px;
+}
+.mazi{
+	position: absolute;
+	top: 83px;
+	width:25px;
+	height: 135px;
+	right: 320px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	color:#ffffff;
+}
+.xian2{
+	position: absolute;
+	top: 70px;
+	right: 275px;
+}
+.youkuang{
+	width: 250px;
+	height: 150px;
+	background:url(../img/xian_03.gif) no-repeat left center;
+	position: absolute;
+	top: 68px;
+	right: 0px;
+	padding-left: 40px;
+	
+	padding-top: 20px;
+
+}
+.zixun01{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+}
+.zixun02{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #fff;
+	height: 40px;
+	position: relative;
+}
+
+.bottom3{
+	height: 120px;
+	width: 100%;
+	background:url(../img/xian66_02.gif) no-repeat top center;
+	background-color: #323232;
+	position: relative;
+
+}
+.bottom3 ul{
+	
+	position: absolute;
+	top: 40px;
+	left: 250px;
+	
+}
+.suiyi1{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #fff;
+}
+.suiyi2{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	background:url(../img/xia_03.gif) no-repeat left center;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #fff;
+}
+.bottom3 p{
+	
+	text-align: center;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	padding-top: 75px;
+	color: #fff;
+}
+
